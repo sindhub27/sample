@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tableau</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('bg.jpg'); /* Set the background image */
+            background-size: cover; /* Cover the entire viewport */
+            background-position: center; /* Center the background image */
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        .main ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        .main ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        .main ul li a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px;
+        }
+        .main ul li a:hover {
+            background-color: #555;
+        }
+        .image-container {
+            text-align: center;
+            margin-top: 20px; /* Add space between image containers */
+        }
+        .image-container img {
+            width: 500px; /* Set image width */
+            height: 500px; /* Set image height */
+            margin-bottom: 50px; /* Add space between images */
+        }
+        .image-container a {
+            display: block;
+            text-decoration: none;
+            color: #333;
+        }
+        ul li.active a{
+        background-color:#fff;
+	    color: #000;
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="main">
+            <ul>
+                <li><a href="index.html"><i class="fa fa-home"></i> Home</a></li>
+                <li><a href="dataset.html">DataSets</a></li>
+                <li><a href="tools.html">Tools</a></li>
+                <li><a href="workflow.html">Workflow</a></li>
+                <li class="active"><a href="tableau.html">Tableau</a></li>
+                <li><a href="d3.html">D3.js</a></li>
+                <li><a href="py.html">Python Libraries</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="image-container">
+        <a href="#">Task 1:question</a>
+        <img src="11.png" alt="Image 1">
+    </div>
+    
+    <div class="image-container">
+        <a href="#">Task 2:question</a>
+        <img src="11.png" alt="Image 2">
+    </div>
+    <div class="image-container">
+        <a href="#">Task 3:question</a>
+        <img src="11.png" alt="Image 2">
+    </div>
+</body>
+</html>
